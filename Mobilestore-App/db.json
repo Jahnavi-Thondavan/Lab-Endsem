@@ -1,0 +1,33 @@
+{
+  "mobiles": [
+    {
+      "id": 1,
+      "brand": "Apple",
+      "model": "iPhone 17 Pro",
+      "price": 134900,
+      "ram": "12 GB",
+      "storage": "256 GB",
+      "camera": "48 MP Triple Camera",
+      "battery": "4000 mAh",
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "brand": "Samsung",
+      "model": "Galaxy S26 Ultra",
+      "price": 129999,
+      "ram": "12 GB",
+      "storage": "256 GB",
+      "rating": 4.7
+    },
+    {
+      "id": 3,
+      "brand": "OnePlus",
+      "model": "OnePlus 14",
+      "price": 69999,
+      "ram": "12 GB",
+      "storage": "256 GB",
+      "rating": 4.5
+    }
+  ]
+}

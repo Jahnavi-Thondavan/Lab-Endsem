@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  color: #28364a;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+/* HEADER */
+
+header {
+  background: #ffffff;
+  height: 68px;
+  padding: 0 9%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e9edf4;
+}
+
+header h2 {
+  font-size: 23px;
+  color: #243b5a;
+  letter-spacing: -1px;
+}
+
+header h2 span {
+  color: #4776c5;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #68778d;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  color: #4776c5;
+}
+
+/* BANNER */
+
+.banner {
+  margin: 25px 9%;
+  padding: 30px 35px;
+  background: linear-gradient(110deg, #e4edfb, #edf2fa);
+  border-radius: 12px;
+  border: 1px solid #e0e9f6;
+}
+
+.banner h1 {
+  font-size: 27px;
+  color: #243b5a;
+  margin-bottom: 9px;
+}
+
+.banner p {
+  font-size: 14px;
+  color: #718096;
+  line-height: 1.6;
+}
+
+/* MOBILE SECTION */
+
+.mobile-section {
+  padding: 20px 9% 45px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 23px;
+}
+
+.heading h2 {
+  font-size: 22px;
+  color: #243b5a;
+}
+
+.heading input {
+  width: 250px;
+  padding: 11px 15px;
+  background: white;
+  border: 1px solid #dce3ed;
+  border-radius: 7px;
+  outline: none;
+  font-size: 13px;
+  transition: 0.2s;
+}
+
+.heading input:focus {
+  border-color: #4776c5;
+  box-shadow: 0 0 0 3px #4776c51a;
+}
+
+/* MOBILE GRID */
+
+.mobile-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* MOBILE CARD */
+
+.card {
+  background: #ffffff;
+  padding: 15px;
+  border: 1px solid #e8edf4;
+  border-radius: 11px;
+  transition: 0.25s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #c8d8f0;
+  box-shadow: 0 10px 25px rgba(36, 59, 90, 0.08);
+}
+
+/* PHONE IMAGE */
+
+.card img {
+  width: 100%;
+  height: 155px;
+  object-fit: contain;
+  background: #f2f5fa;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+/* PRODUCT DETAILS */
+
+.card h3 {
+  font-size: 17px;
+  color: #293b55;
+  margin-bottom: 9px;
+}
+
+.card h2 {
+  font-size: 21px;
+  color: #4776c5;
+  margin-bottom: 13px;
+}
+
+.card p {
+  font-size: 13px;
+  color: #77859a;
+  padding: 5px 0;
+  border-bottom: 1px solid #f0f2f6;
+}
+
+/* BUTTON */
+
+.card button {
+  width: 100%;
+  padding: 11px;
+  margin-top: 14px;
+  background: #345d96;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.card button:hover {
+  background: #243f68;
+}
+
+/* FOOTER */
+
+footer {
+  background: #243b5a;
+  color: #dce5f2;
+  text-align: center;
+  padding: 20px;
+  font-size: 13px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 800px) {
+  .mobile-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  header {
+    padding: 0 5%;
+  }
+
+  .banner,
+  .mobile-section {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 0
